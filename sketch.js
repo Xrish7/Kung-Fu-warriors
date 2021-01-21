@@ -263,7 +263,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth,windowHeight);
 
-  frameRate(120);
+  frameRate(60);
   gameState = "play";
 
   // The Ground for making the player stand
